@@ -2,6 +2,7 @@
 #write an input for the user to begin the story
 #create a function called CurseFunc
 #loop that file so each letter will display
+#import time to loop file so each letter will display a typing effect
 #write an import that inputs the file text of the story.
 #Add multiple lines for each sentence
 #print content after writing
@@ -9,8 +10,15 @@
 import time
 
 lines = [
+
     "The Legend of Zelda: Python’s Curse\n",
     "\n",
+    "Long ago in the kingdom of Hyurule, \n"
+    "\n"
+    "there was peace surrounding the land.\n"
+    "\n"
+    "While the citizens of Hyurule, \n"
+    "\n"
     "Darkness engulfs Hyrule as an ancient curse left by Python spreads venom across the land. ",
     "Monsters known as Errors emerge, twisting reality. Princess Zelda is imprisoned, fully consumed by the black venom, ",
     "while Hyrule Castle falls into ruin.\n",
