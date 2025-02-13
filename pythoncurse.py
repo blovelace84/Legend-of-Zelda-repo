@@ -7,12 +7,29 @@
 #print content after writing
 
 
-lines = ["Long ago, in the Kingdom of Hyrule,\n",
-          "lived people of laughter and love\n",
-         "While the people of Hyrule enjoyed their day,\n"
-         "Darkness engulfs Hyrule as an ancient curse left by Python spreads venom across the land. Monsters known as Errors emerge, twisting reality. Princess Zelda is imprisoned, fully consumed by the black venom, while Hyrule Castle falls into ruin.\n",
-         ]
+lines = [
+    "The Legend of Zelda: Python’s Curse\n",
+    "\n",
+    "Darkness engulfs Hyrule as an ancient curse left by Python spreads venom across the land. ",
+    "Monsters known as Errors emerge, twisting reality. Princess Zelda is imprisoned, fully consumed by the black venom, ",
+    "while Hyrule Castle falls into ruin.\n",
+    "\n",
+    "Only a sacred sword, forged to purify corruption, can break the curse. Link, the kingdom’s last hope, ",
+    "embarks on a journey to restore Hyrule and free Zelda.\n",
+    "\n",
+    "Final Battle: Python’s Last Stand\n",
+    "\n",
+    "Deep within Hyrule Castle, in a venom-filled arena, Python’s dragon-like form strikes with deadly attacks. ",
+    "Link must purify the land as Errors attempt to stop him. As the battle intensifies, Zelda’s voice momentarily ",
+    "breaks through the curse, strengthening the sword.\n",
+    "\n",
+    "In a final clash, Link lands a purifying blow, shattering Python and dissolving the venom. ",
+    "Zelda is freed, and Hyrule begins to heal. The curse is lifted, and balance is restored.\n"
+]
+
 
 zeldaFile  = open('zeldaFile.txt', 'w')
-with open('zeldaFile.txt', 'w'):
-    zeldaFile.write(str(lines))
+with open('zeldaFile.txt', 'w') as file:
+    file.writelines(lines)
+with open('zeldaFile.txt', 'r') as file:
+    print(file.read())
