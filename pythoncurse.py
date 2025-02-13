@@ -6,6 +6,7 @@
 #Add multiple lines for each sentence
 #print content after writing
 
+import time
 
 lines = [
     "The Legend of Zelda: Python’s Curse\n",
@@ -32,4 +33,8 @@ zeldaFile  = open('zeldaFile.txt', 'w')
 with open('zeldaFile.txt', 'w') as file:
     file.writelines(lines)
 with open('zeldaFile.txt', 'r') as file:
-    print(file.read())
+    content = file.read()
+
+for letter in content:
+    print(letter, end="", flush=True)
+    time.sleep(0.08)
