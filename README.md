@@ -1,7 +1,7 @@
 # Legend of Zelda: Python's Curse
 
 ## Description
-The code is a simple program that tells a story of the Legend of Zelda, similar to how the game does at the beginning.
+The code is a simple program that tells a story of the Legend of Zelda, similar to how the game starts at the beginning by telling a short intro story.
 
 ## Installation
 To install and set up the project, follow these steps:
