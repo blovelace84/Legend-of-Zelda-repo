@@ -17,4 +17,4 @@ To install and set up the project, follow these steps:
 ## Usage
 To run the code, execute the following command in your terminal:
 ```bash
-python main.py
+python pythoncurse.py
